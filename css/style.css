@@ -1703,3 +1703,53 @@ h6 {
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+/* Estilo para tabletas */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .qbootstrap-hero {
+      background-position: center center !important;
+      background-size: cover !important;
+  }
+
+  .qbootstrap-cover {
+      background-position: center center !important;
+      background-size: cover !important;
+  }
+
+  .qbootstrap-cover .display-tc {
+      padding: 20px;
+  }
+
+  .qbootstrap-cover .container {
+      width: 100% !important;
+  }
+
+  .qbootstrap-cover img.svg {
+      width: auto;
+      height: auto;
+  }
+}
+/* Estilo para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .qbootstrap-hero {
+      background-position: center center !important;
+      background-size: cover !important;
+  }
+
+  .qbootstrap-cover {
+      background-position: center center !important;
+      background-size: cover !important;
+  }
+
+  .qbootstrap-cover .display-tc {
+      padding: 10px;
+  }
+
+  .qbootstrap-cover .container {
+      width: 100% !important;
+  }
+
+  .qbootstrap-cover img.svg {
+      width: auto;
+      height: auto;
+  }
+}
